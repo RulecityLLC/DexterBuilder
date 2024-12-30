@@ -13,10 +13,7 @@ To create binaries in a subdirectory called **DexterOutput**:
 
 ## From Linux, MacOS or Windows Powershell
 ```
-docker run --rm -v ${PWD}/DexterOutput:/usr/local/bin -ti mpownby/dexter-builder \
-  sh -c "git clone --depth 1 https://github.com/RulecityLLC/DexterBuilder.git && \
-  cd DexterBuilder/scripts && \
-  ./build_all.sh"
+docker run --rm -v ${PWD}/DexterOutput:/usr/local/bin -ti mpownby/dexter-builder sh -c "git clone --depth 1 https://github.com/RulecityLLC/DexterBuilder.git && cd DexterBuilder/scripts && ./build_all.sh"
 ```
 
 ## From Windows command line
